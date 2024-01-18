@@ -8,7 +8,8 @@ const Sidebar = () => {
   return (
     <div className='w-60 shadow-md'>
         <ul className='m-4 my-5'>
-            <li className='m-5'><Link to="/">Home</Link></li>
+            
+            <li className='mx-5'><Link to="/">Home</Link></li>
             <li className='m-5'>Short</li>
             <li className='m-5'>Subscribtions</li>
             <li className='m-5'>Your Channel</li>
