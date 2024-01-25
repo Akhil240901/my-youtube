@@ -27,10 +27,10 @@ const Header = () => {
         setSuggestions(jsonData[1]);
    }
   return (
-    <div className='flex justify-between m-3 shadow-lg'>
-       <div className='flex'>
-          <img onClick={()=>toggleMenu()} className='cursor-pointer h-12 p-3 my-auto' alt='toggle' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOq0FzS1txbecrxVy-G-cKb3gCNX9eNQtfMQ&usqp=CAU' />
-          <img className='h-20 p-2 my-auto' alt='logo' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1DZmq9aUhFguaSN0NerzaSt7ar_hNMe-Vw&usqp=CAU'/>
+    <div className='flex justify-between m-3 shadow-lg items-center '>
+       <div className='flex items-center'>
+          <img onClick={()=>toggleMenu()} className=' cursor-pointer h-10 w-10 p-2 ' alt='toggle' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOq0FzS1txbecrxVy-G-cKb3gCNX9eNQtfMQ&usqp=CAU' />
+          <img className='h-20 w-20 p-2 ' alt='logo' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1DZmq9aUhFguaSN0NerzaSt7ar_hNMe-Vw&usqp=CAU'/>
        </div>
 
        <div>

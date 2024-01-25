@@ -12,7 +12,7 @@ const Videocontainer = () => {
     const data=await fetch(API_URL);
     const jsonData=await data.json();
     setVideos(jsonData.items)
-    //console.log(jsonData)
+    console.log(jsonData)
 }
   return (
     <div className='flex flex-wrap'>
